@@ -93,8 +93,8 @@ logging.info("DataFrame criado com sucesso")
 
 # Exporta os dados para o BigQuery
 try:
-    df.to_gbq(destination_table='projetobeanalytic.games_sales_steam.Vendas-de-Jogos',
-              project_id='projetobeanalytic',
+    df.to_gbq(destination_table=os.getenv('BIGQUERY_TABLE'),
+              project_id=os.getenv('BIGQUERY_PROJECT_ID'),
               if_exists='replace',
               credentials=credencial)
     logging.info("Dados carregados com sucesso no BigQuery")
