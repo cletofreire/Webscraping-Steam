@@ -34,8 +34,6 @@ Para rodar esse projeto, você vai precisar adicionar as seguintes variáveis de
 
 `BIGQUERY_PROJECT_ID`=your-bigquery-project-id
 
-`BIGQUERY_DATASET`=your-bigquery-dataset
-
 `BIGQUERY_TABLE`=your-bigquery-table
 
 
