@@ -1,7 +1,7 @@
 
 # SteamDB Data Extraction and Automation
 
-Este projeto foi desenvolvido como parte de um desafio para a vaga de Engenheiro de Dados Junior na BeAnalytic. O objetivo é extrair o máximo possível de dados do site [SteamDB Sales](https://steamdb.info/sales/) e automatizar a exportação desses dados para uma tabela no Google BigQuery.
+Este projeto tem como objetivo extrair o máximo possível de dados do site [SteamDB Sales](https://steamdb.info/sales/) e automatizar a exportação desses dados para uma tabela no Google BigQuery.
 
 
 
